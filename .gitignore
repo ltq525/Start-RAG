@@ -1,0 +1,60 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+id_rsa
+id_rsa.pub
+credentials*.json
+secret*.json
+secrets*.json
+
+# Python cache and build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and reports
+*.log
+logs/
+learning_report_*.json
+
+# Project runtime data
+knowledge_base/
+memory_data/
+uploads/
+tmp/
+temp/
+
+# Local database/vector-store artifacts
+qdrant_storage/
+neo4j_data/
+*.sqlite
+*.sqlite3
+
+# Model/cache artifacts
+.cache/
+models/
